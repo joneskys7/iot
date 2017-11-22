@@ -1,0 +1,45 @@
+sudo apt-get update
+sudo apt-get install mysql-server
+	type password
+mysql -u root -p
+	type password
+	mysql> \h
+	mysql> quit
+sudo apt-get install apache2
+sudo apt-get install apache2 php5 libapache2-mod-php5
+sudo apt-get install phpmyadmin
+	select apache2 ENTER
+	
+	yes
+
+	type password
+
+	type password
+
+	type password
+
+
+sudo nano /etc/apache2/apache2.conf
+	go to last and enter
+		Include /etc/phpmyadmin/apache.conf
+	ctrl+x
+	y
+	ENTER
+sudo /etc/init.d/apache2 restart
+hostname -I
+
+sudo chmod -R 777 /var/www/html
+
+
+THEN GO TO /var/www/html  path
+then paste .php file there 
+
+then go to Terminal and 
+
+sudo /etc/init.d/apache2 restart
+
+
+http://127.0.0.1/update.php?id=1
+http://127.0.0.1/update.php?id=1
+
+
